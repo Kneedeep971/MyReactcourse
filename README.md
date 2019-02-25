@@ -1,6 +1,2 @@
 "# MyReactcourse" 
-"# MyReactcourse" 
-"# MyReactcourse" 
-"# MyReactcourse" 
-"# MyReactcourse" 
-"# MyReactcourse" 
+Stephen Price
