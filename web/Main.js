@@ -18,5 +18,5 @@ let boxes = ["box1", "box2", "box3"]
 
 let myDivRef = document.getElementById(boxes[1].id)
 
-myDivRef.innerHTML = boxes[2].children
+myDivRef.innerHTML = boxes[1].children
 myDivRef.style.backgroundColor = 1
