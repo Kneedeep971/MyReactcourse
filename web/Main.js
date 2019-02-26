@@ -14,7 +14,7 @@ let box3 = {
     children: "This is box3"
 };
 
-let boxes = ["box1", "box2", "box3"];
+let boxes = [box1, box2, box3];
 
 let myDivRef = document.getElementById(boxes[2].id);
 
