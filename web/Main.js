@@ -1,5 +1,5 @@
 let box1 = {
-    id: "Item1",
+    id: "Item 1",
     color: "purple",
     children: "This is box1"
 };
@@ -9,7 +9,7 @@ let box2 = {
     children: "This is box2"
 };
 let box3 = {
-    id: "Item3",
+    id: "Item 3",
     color: "orange",
     children: "This is box3"
 };
