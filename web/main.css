@@ -5,3 +5,12 @@ header>div {
     border: 1px solid blue;
 }
 div { background-color: green;}
+header div#item1 {
+    background-color:red;
+}
+header div#item2 {
+    background-color: blue;
+}
+header div#item3 {
+    background-color: green;
+}
