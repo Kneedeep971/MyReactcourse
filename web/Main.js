@@ -20,4 +20,4 @@ let myDivRef = document.getElementById(boxes[2].id);
 
 myDivRef.innerHTML = boxes[2].children;
 
-myDivRef.style.backgroundColor = boxes[1].color;
+myDivRef.style.backgroundColor = boxes[2].color;
