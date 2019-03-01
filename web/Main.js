@@ -37,26 +37,26 @@
 
 function  randomInt() {
      let digit = Math.floor(Math.random() * (10));
-     console.log(digit)
-     return digit
+     console.log(digit);
+     return digit;
 }
 const selectedNumbers =[];
-const allQuickPick3s = [];
+const quickPick3s = [];
 
-randomInt()
+randomInt();
 
 function generateQuickPick3() {
      for (let boxNumber = 1; boxNumber <= 3; boxNumber++) {
          flipNumbers(boxNumber);
      }
  
-     setTimeout(updateOutput, 3000)
+     setTimeout(updateOutput, 3000);
  }
 
 function flipNumbers(boxNumber) {
      const updatingBox = document.getElementById(`item${boxNumber}`);
      let timerId = setInterval ((updatingBox)=> {
-          someDigit = randomInt();
+          let someDigit = randomInt();
           updatingBox.innerText = someDigit;
      }, 100, updatingBox);
 setTimeout((boxNumber)=>{
@@ -69,10 +69,10 @@ setTimeout((boxNumber)=>{
 
 function updateOutput() {
 
-     let latestQuickPick3 = `${selectedNumbers[0]}${selectedNumbers[1]}${selectedNumbers[2]}`
+     let latestQuickPick3 = `${selectedNumbers[0]}${selectedNumbers[1]}${selectedNumbers[2]}`;
 
-     allQuickPick3s.push(latestQuickPick3);
+     quickPick3s.push(latestQuickPick3);
 
-     document.getElementById("allQuickPick3s").innerText = allQuickPick3s;
+     document.getElementById("quickPick3s").innerText = quickPick3s;
 }
 
